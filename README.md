@@ -19,6 +19,7 @@
       - [Ruy-Lopez](#ruy-lopez)
       - [Early Cascade Injection](#early-cascade-injection)
       - [Kernel Callback Table Injection](#kernel-callback-table-injection)
+      - [PichichiH0ll0wer - Split Hollowing](#pichichih0ll0wer---split-hollowing)
   - [Process Injection](#process-injection-1)
       - [Classic Dll Injection](#classic-dll-injection)
       - [Classic Shellcode Injection](#classic-shellcode-injection)
@@ -50,6 +51,7 @@
       - [Thread Name Calling](#thread-name-calling)
       - [Waiting Thread Hijacking](#waiting-thread-hijacking)
       - [RedirectThread Context Injection](#redirectthread-context-injection)
+
 
 # Introduction
 I've been thinking about putting together a list of process injection techniques and ingenious POCs because I haven't found a decent one. This list focuses on process-spawning injection methods and actual process injection, excluding pre-execution techniques (e.g. AppCert and AppInit Dlls), and self-injection techniques.
@@ -111,6 +113,9 @@ I've been thinking about putting together a list of process injection techniques
 
 #### Kernel Callback Table Injection
 - https://github.com/0xHossam/KernelCallbackTable-Injection-PoC
+
+#### PichichiH0ll0wer - Split Hollowing
+- https://github.com/itaymigdal/PichichiH0ll0wer
 
 ## Process Injection
 
